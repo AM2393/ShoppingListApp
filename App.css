@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #7FFFD4;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.shopping-list {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #E0FFFF;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.add-item {
+  margin-top: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
